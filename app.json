@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "smart-switch",
+    "name": "Smart Switch",
     "slug": "smart-switch",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -19,7 +19,9 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.escolaberta.smartswitch",
+      "versionCode": 2
     },
     "web": {
       "bundler": "metro",
@@ -31,6 +33,14 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "4441055a-5451-42e4-abb3-a2a824541a65"
+      }
     }
   }
 }
